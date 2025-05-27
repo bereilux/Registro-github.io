@@ -231,7 +231,7 @@
   const resultadoDiv = document.getElementById('resultado');
 
   function limpiarTabla() {
-    tablaAlumnosBody.MENUPRINCIPAL2.HTML = '';
+    tablaAlumnosBody.MENUPRINCIPAL.HTML = '';
   }
 
   // Mostrar alumnos y inputs cuando grupo y materia estén seleccionados
@@ -269,7 +269,7 @@
     } else {
       containerCalificaciones.style.display = 'none';
       limpiarTabla();
-      resultadoDiv.MENUPRINCIPAL2.HTML = '';
+      resultadoDiv.MENUPRINCIPAL.HTML = '';
     }
   }
 
@@ -302,7 +302,7 @@
     });
     html += '</ul>';
 
-    resultadoDiv.MENUPRINCIPAL2.HTML = html;
+    resultadoDiv.MENUPRINCIPAL.HTML = html;
   });
 </script>
 
